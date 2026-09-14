@@ -30,10 +30,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Great+Vibes&family=Noto+Sans+TC:wght@300;400;500;600&family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap" rel="stylesheet">
 
   <style>
-    /* 中文主字體：WawaSC-Regular。若瀏覽裝置沒有此字體，會自動使用圓體備援。 */
+    /* 中文主字體：華康娃娃體 W5。
+       若瀏覽裝置沒有安裝此字體，會自動使用後方圓體備援。 */
     @font-face{
-      font-family:"WawaSC-Regular";
-      src:local("WawaSC-Regular"),local("Wawa SC Regular");
+      font-family:"DFWaWa";
+      src:local("DFWaWa W5"),
+          local("DFWaWaW5"),
+          local("DFPWaWaW5"),
+          local("華康娃娃體 W5"),
+          local("華康娃娃體W5");
       font-style:normal;
       font-weight:400;
       font-display:swap;
@@ -55,7 +60,7 @@
       margin:0;
       color:var(--ink);
       background:#f8eef2;
-      font-family:"WawaSC-Regular","Zen Maru Gothic","Noto Sans TC",sans-serif;
+      font-family:"DFWaWa","Zen Maru Gothic","Noto Sans TC",sans-serif;
       font-weight:400;
       letter-spacing:.035em;
     }
@@ -88,7 +93,7 @@
     .hero img{width:100%;height:78%;object-fit:cover;object-position:center top}
     .hero::after{content:"";position:absolute;inset:38% 0 0;background:linear-gradient(transparent 0%,rgba(255,255,255,.72) 48%,#fff 76%)}
     .hero-copy{position:absolute;z-index:2;left:24px;right:24px;bottom:48px;text-align:center}
-    .hero-date-small{font-family:"WawaSC-Regular","Zen Maru Gothic","Noto Sans TC",sans-serif;font-size:18px;letter-spacing:.12em;font-weight:500}
+    .hero-date-small{font-family:"DFWaWa","Zen Maru Gothic","Noto Sans TC",sans-serif;font-size:18px;letter-spacing:.12em;font-weight:500}
     .hero-title{margin:0 0 10px;font-family:"Great Vibes",cursive;font-size:58px;line-height:.9;font-style:normal;font-weight:400;letter-spacing:0;color:var(--rose-deep)}
     .hero-sub{font-size:11px;letter-spacing:.2em;color:#c29aa6;font-weight:500}
     .hero-names{margin-top:20px;font-size:14px;letter-spacing:.12em;font-weight:500}
@@ -143,7 +148,7 @@
 
     /* wedding info */
     .about-label{font-size:18px;letter-spacing:.01em;color:var(--rose-deep)}
-    .about-title{font-family:"WawaSC-Regular","Zen Maru Gothic","Noto Sans TC",sans-serif;font-size:37px;font-style:normal;letter-spacing:.04em;color:var(--rose-deep);font-weight:500;margin:4px 0 12px}
+    .about-title{font-family:"DFWaWa","Zen Maru Gothic","Noto Sans TC",sans-serif;font-size:37px;font-style:normal;letter-spacing:.04em;color:var(--rose-deep);font-weight:500;margin:4px 0 12px}
     .calendar{margin:28px auto 32px;max-width:320px}
     .cal-head{text-align:center;margin-bottom:12px}
     .cal-head .month{font-size:34px;line-height:1.1}
@@ -167,7 +172,7 @@
     .pink-note{font-size:11px;line-height:2;opacity:.86}
 
     /* reminder */
-    .reminder h2{font-family:"WawaSC-Regular","Zen Maru Gothic","Noto Sans TC",sans-serif;font-size:29px;font-style:normal;letter-spacing:.08em;color:var(--rose-deep);font-weight:500;margin:5px 0 18px}
+    .reminder h2{font-family:"DFWaWa","Zen Maru Gothic","Noto Sans TC",sans-serif;font-size:29px;font-style:normal;letter-spacing:.08em;color:var(--rose-deep);font-weight:500;margin:5px 0 18px}
     .reminder ul{list-style:none;padding:0;margin:22px 0 0;text-align:left}
     .reminder li{font-size:12px;line-height:2;padding:9px 0;border-bottom:1px solid #f5e5ea}
     .reminder li::before{content:"♡";color:var(--rose);margin-right:8px}
@@ -187,10 +192,10 @@
     @keyframes spin{to{transform:rotate(360deg)}}
 
     /* 字體層級：英文草寫＋中文圓潤 */
-    .invite h2,.invite p,.small,.pink-note,.info-box h3,.info-box p,.reminder li,.final-copy p{font-family:"WawaSC-Regular","Zen Maru Gothic","Noto Sans TC",sans-serif}
+    .invite h2,.invite p,.small,.pink-note,.info-box h3,.info-box p,.reminder li,.final-copy p{font-family:"DFWaWa","Zen Maru Gothic","Noto Sans TC",sans-serif}
     .hero-title,.city-overlay h3,.names-title,.save-title,.sunset-copy h2,.pink-big,.final-copy h2{font-family:"Great Vibes",cursive}
     .celebrate-title,.celebrate-quote,.love-you,.lucky,.about-label,.cal-head .month,footer.en{font-family:"Dancing Script",cursive}
-    .hero-date-small,.about-title,.reminder h2{font-family:"WawaSC-Regular","Zen Maru Gothic","Noto Sans TC",sans-serif}
+    .hero-date-small,.about-title,.reminder h2{font-family:"DFWaWa","Zen Maru Gothic","Noto Sans TC",sans-serif}
 
     @media (max-width:380px){
       .parents{gap:9px}
